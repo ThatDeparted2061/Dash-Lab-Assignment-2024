@@ -1,0 +1,86 @@
+[
+    {
+        "Prompt": "What is an operating system?",
+        "Message": "Error occurred",
+        "TimeSent": 1725042096,
+        "TimeRecvd": 1725042096,
+        "Source": "Google Gemini"
+    },
+    {
+        "Prompt": "What is the OSI model?",
+        "Message": "Error occurred",
+        "TimeSent": 1725042096,
+        "TimeRecvd": 1725042096,
+        "Source": "Google Gemini"
+    },
+    {
+        "Prompt": "Who was Alan Turing?",
+        "Message": "Error occurred",
+        "TimeSent": 1725042096,
+        "TimeRecvd": 1725042097,
+        "Source": "Google Gemini"
+    },
+    {
+        "Prompt": "How do computer networks work?",
+        "Message": "Error occurred",
+        "TimeSent": 1725042097,
+        "TimeRecvd": 1725042097,
+        "Source": "Google Gemini"
+    },
+    {
+        "Prompt": "What is the Linux Kernel?",
+        "Message": "Error occurred",
+        "TimeSent": 1725042097,
+        "TimeRecvd": 1725042097,
+        "Source": "Google Gemini"
+    },
+    {
+        "Prompt": "What is a File system?",
+        "Message": "Error occurred",
+        "TimeSent": 1725042097,
+        "TimeRecvd": 1725042097,
+        "Source": "Google Gemini"
+    },
+    {
+        "Prompt": "What is Docker?",
+        "Message": "Error occurred",
+        "TimeSent": 1725042097,
+        "TimeRecvd": 1725042097,
+        "Source": "Google Gemini"
+    },
+    {
+        "Prompt": "What is a GPU and how is it different from a CPU?",
+        "Message": "Error occurred",
+        "TimeSent": 1725042097,
+        "TimeRecvd": 1725042098,
+        "Source": "Google Gemini"
+    },
+    {
+        "Prompt": "What are the layers of the OSI model?",
+        "Message": "Error occurred",
+        "TimeSent": 1725042098,
+        "TimeRecvd": 1725042098,
+        "Source": "Google Gemini"
+    },
+    {
+        "Prompt": "What is BeeGFS?",
+        "Message": "Error occurred",
+        "TimeSent": 1725042098,
+        "TimeRecvd": 1725042098,
+        "Source": "Google Gemini"
+    },
+    {
+        "Prompt": "What are the various components that comprise a computer?",
+        "Message": "Error occurred",
+        "TimeSent": 1725042098,
+        "TimeRecvd": 1725042098,
+        "Source": "Google Gemini"
+    },
+    {
+        "Prompt": "What is Federated Learning?",
+        "Message": "Error occurred",
+        "TimeSent": 1725042098,
+        "TimeRecvd": 1725042098,
+        "Source": "Google Gemini"
+    }
+]
