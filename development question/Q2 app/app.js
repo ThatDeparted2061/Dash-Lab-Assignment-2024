@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 
 
-const apiKey = 'your-api-AIzaSyCLXDEWEvbTgXEeDXCUSVojZeEkTE0SmYg-here';
+const apiKey = 'AIzaSyCLXDEWEvbTgXEeDXCUSVojZeEkTE0SmYg';
 
 // Define the API endpoint for Gemini.
 const apiEndpoint = 'https://gemini.googleapis.com/v1beta1/models/gemini-1.5-flash:generateText';
