@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Run the main app.js script to split prompts and trigger client execution
+# get started
 echo "Starting the server and clients..."
 
 # Run the main app.js script
