@@ -1,8 +1,8 @@
 const axios = require('axios');
 const fs = require('fs');
 
-// Replace 'your-api-key-here' with your actual API key.
-const apiKey = 'your-api-key-here';
+
+const apiKey = 'AIzaSyCLXDEWEvbTgXEeDXCUSVojZeEkTE0SmYg';
 
 // Define the API endpoint for Gemini.
 const apiEndpoint = 'https://gemini.googleapis.com/v1beta1/models/gemini-1.5-flash:generateText';
@@ -41,7 +41,8 @@ async function processPrompts(fileName, clientID) {
                 "Source": isMatchedPrompt ? "Gemini" : "user", // if prompt matches, else "user"
                 "ClientID": clientID
             });
-
+        
+            //error handling I think i cud ve done better
         } catch (error) {
             console.error(`Error calling Gemini API for ${clientID}:`, error.response ? error.response.data : error.message);
             output.push({
