@@ -3,7 +3,7 @@ import axios from 'axios';
 
 const app = express();
 const port = 3000;
-const API_KEY = 'fc61a27e0d994ec9b07e9a39716afb2e';  // Directly set your API key
+const API_KEY = 'fc61a27e0d994ec9b07e9a39716afb2e';  // The API key
 
 app.use(express.json());
 
