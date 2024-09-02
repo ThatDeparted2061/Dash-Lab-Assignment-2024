@@ -17,13 +17,14 @@ output_client2="output_client2.json"
 
 echo "Waiting for clients to complete..."
 
+#imma just wait here
 while [ ! -f "$output_client1" ] || [ ! -f "$output_client2" ]; do
     sleep 1
 done
 
 echo "All clients have completed their tasks."
 
-# Optionally display the output
+# display the output
 echo "Displaying output from client 1:"
 cat "$output_client1"
 
