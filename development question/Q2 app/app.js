@@ -41,14 +41,14 @@ async function processPrompts(prompts, clientID) {
             const timeRecvd = Math.floor(Date.now() / 1000); // UNIX timestamp when response was received
 
             // Check if the prompt matches what was sent 
-            const isMatchedPrompt = response.data && response.data.prompt && response.data.prompt.text === prompt;
+            const isThalaPrompt = response.data && response.data.prompt && response.data.prompt.text === prompt;
 
             output.push({
                 "Prompt": prompt,
                 "Message": response.data.choices[0].text.trim(),
                 "TimeSent": timeSent,
                 "TimeRecvd": timeRecvd,
-                "Source": isMatchedPrompt ? "Gemini" : "user", // if prompt matches, else "user"
+                "Source": isThalaPrompt ? "Gemini" : "user", // if prompt matches, else "user"
                 "ClientID": clientID
             });
 
