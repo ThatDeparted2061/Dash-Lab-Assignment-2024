@@ -34,7 +34,7 @@ async function processPrompts(prompts, clientID) {
         try {
             const requestData = {
                 prompt: { text: prompt },
-                max_tokens: 100, // Adjust the max tokens requirement.
+                max_tokens: 100, // Adjust the max tokens.
             };
 
             const response = await axios.post(apiEndpoint, requestData, { headers });
