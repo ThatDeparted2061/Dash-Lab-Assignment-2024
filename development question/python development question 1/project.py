@@ -1,7 +1,7 @@
 import google.generativeai as genai
 import os
 
-# Fetch the API key from an environment variable (replace YOUR_ENV_VARIABLE_NAME with the actual variable name)
+# Fetch the API key from an environment variable 
 api_key = os.environ.get("YOUR_ENV_VARIABLE_NAME") 
 
 # Ensure the API key is retrieved correctly
